@@ -23,11 +23,12 @@ Select a specific number of nodes with distance
 ![ alt text for screen readers](./images/map1.jpg "Map around my house")
 
 ## PROGRAM
-~
+~~~
 REG.NO: 212220230051
 NAME: SURENDAR S
-~
-~
+~~~~~
+
+~~~
 %matplotlib inline
 import matplotlib.pyplot as plt
 import random
