@@ -173,7 +173,7 @@ goal_state_path=breadth_first_search(r1)
 print("GoalStateWithPath:{0}".format(goal_state_path))
 path_states(goal_state_path) 
 print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
-~
+~~~
 
 ## OUTPUT:
 
