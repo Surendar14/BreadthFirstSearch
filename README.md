@@ -19,8 +19,8 @@ Select a specific number of nodes with distance
 
 ## ROUTE MAP
 #### Include your own map
-#### Example map
-![ alt text for screen readers](./images/map1.jpg "Map around my house")
+![Untitled design (14)](https://user-images.githubusercontent.com/75235759/166438235-890c914b-6f9a-4a48-a493-3ce3bc06cb5b.png)
+
 
 ## PROGRAM
 ~~~
@@ -176,8 +176,12 @@ print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 ~~~
 
 ## OUTPUT:
+![Screenshot (72)](https://user-images.githubusercontent.com/75235759/166438466-02eb6e52-6a2e-46e5-a8bd-098cc5fce8d4.png)
+
+
 
 ## SOLUTION JUSTIFICATION:
+Route follow the minimum distance between locations using breadth-first search. As BFS traverses the tree “shallowest node first”, it would always pick the shallower branch until it reaches the solution.
 
-## RESULT:
-
+##RESULT:
+Thus an algorithm to find the route from the source to the destination point using breadth-first search is developed and executed successfully.
