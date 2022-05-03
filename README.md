@@ -183,5 +183,5 @@ print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 ## SOLUTION JUSTIFICATION:
 Route follow the minimum distance between locations using breadth-first search. As BFS traverses the tree “shallowest node first”, it would always pick the shallower branch until it reaches the solution.
 
-###RESULT:
+## RESULT:
 Thus an algorithm to find the route from the source to the destination point using breadth-first search is developed and executed successfully.
